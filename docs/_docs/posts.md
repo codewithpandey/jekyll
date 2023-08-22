@@ -233,6 +233,8 @@ create a `_drafts` folder in your site's root and create your first draft:
 │   └── a-draft-post.md
 ...
 ```
+To show the drafts edit page option on the jekyll admin panel you have to add
+you have to add `show_drafts: 'true'` in the jekyll configuration file.
 
 To preview your site with drafts, run `jekyll serve` or `jekyll build`
 with the `--drafts` switch. Each will be assigned the value modification time
